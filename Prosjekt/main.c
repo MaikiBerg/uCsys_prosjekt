@@ -23,7 +23,7 @@ uint8_t alarm_hour = 0;
 uint8_t alarm_minutes = 0;
 
 uint8_t state = 0;
-uint8_t maxstates = 7;	// 0 - Just count time, 1 - Set hours, 2 - set minutes, 3 - Just count time, 4 - Set alarm hours, 5 - set alarm minutes, 6 - alarm on and count time, 7 alarm off
+uint8_t maxstates = 7;	// 0 - Start, 1 - Set hours, 2 - set minutes, 3 - Just count time, 4 - Set alarm hours, 5 - set alarm minutes, 6 - alarm on and count time, 7 alarm off
 
 volatile uint8_t isr_var = 0;
 
